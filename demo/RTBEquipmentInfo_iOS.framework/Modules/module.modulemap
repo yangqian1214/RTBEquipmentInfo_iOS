@@ -1,0 +1,6 @@
+framework module RTBEquipmentInfo_iOS {
+  umbrella header "RTBEquipmentInfo_iOS.h"
+
+  export *
+  module * { export * }
+}
