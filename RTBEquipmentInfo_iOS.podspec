@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "RTBEquipmentInfo_iOS/RTBEquipmentInfo_iOS.framework"
+#   s.resources = "RTBEquipmentInfo_iOS/RTBEquipmentInfo_iOS.framework"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
    s.frameworks = "Foundation"
-   s.vendored_frameworks = "RTBEquipmentInfo_iOS/*.{framework}"
+ #  s.vendored_frameworks = "RTBEquipmentInfo_iOS/*.{framework}"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
