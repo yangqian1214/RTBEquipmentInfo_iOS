@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/yqqlp/RTBEquipmentInfo_iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://github.com/yqqlp/RTBEquipmentInfo_iOS", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "RTBEquipmentInfo_iOS/**/*.{h,m}"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "Foundation"
+#   s.frameworks = "Foundation"
  #  s.vendored_frameworks = "RTBEquipmentInfo_iOS/*.{framework}"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
