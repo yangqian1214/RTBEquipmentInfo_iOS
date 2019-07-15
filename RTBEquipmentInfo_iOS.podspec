@@ -64,11 +64,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
- s.platform     = :ios
+# s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "9.0"
+   s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "RTBEquipmentInfo_iOS/RTBEquipmentInfo_iOS.framework"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
    s.frameworks = "Foundation"
-s.vendored_frameworks = "RTBEquipmentInfo_iOS/*.{framework}"
+   s.vendored_frameworks = "RTBEquipmentInfo_iOS/*.{framework}"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
