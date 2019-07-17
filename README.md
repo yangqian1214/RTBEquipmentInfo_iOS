@@ -16,7 +16,7 @@ pod引入RTBEquipmentInfo_iOS.framework成功之后，可以引入头文件#impo
     NSDictionary *dic = [[RTBSystemServices sharedServices]allSystemInformation];
     NSLog(@"info:%@",dic);
     self.textView.text = [self dictionaryToJson:dic];
-    //距离获取单个信息
+    //获取单个信息
     NSString *deviceName = [[RTBSystemServices sharedServices]deviceName];
     NSLog(@"deviceName = %@",deviceName);
 
