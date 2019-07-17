@@ -7,16 +7,21 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 
 $ gem install cocoapods
 
+
 Podfile
+
 
 To integrate RTBEquipmentInfo_iOS into your Xcode project using CocoaPods, specify it in your Podfile:
 
 
 platform :ios, '9.0'
 
+
 target 'TargetName' do
 pod 'RTBEquipmentInfo_iOS'
 end
+
+
 Then, run the following command:
 
 $ pod install
