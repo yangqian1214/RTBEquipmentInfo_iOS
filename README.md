@@ -1,9 +1,29 @@
 # RTBEquipmentInfo_iOS
 get your iPhone equipment info 
 
-改库支持cocoapods引入，方便大家使用，
+Installation with CocoaPods
+
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like RTBEquipmentInfo_iOS in your projects. See the "Getting Started" guide for more information. You can install it with the following command:
+
+$ gem install cocoapods
+
+Podfile
+
+To integrate RTBEquipmentInfo_iOS into your Xcode project using CocoaPods, specify it in your Podfile:
+
+
+platform :ios, '9.0'
+
+target 'TargetName' do
+pod 'RTBEquipmentInfo_iOS'
+end
+Then, run the following command:
+
+$ pod install
+
 
 cocoapods引入编辑Podfile 中加入   pod 'RTBEquipmentInfo_iOS'
+
 
 ##调用方法
 
