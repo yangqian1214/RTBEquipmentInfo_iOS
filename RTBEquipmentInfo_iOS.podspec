@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "RTBEquipmentInfo_iOS"
   s.version      = "0.0.1"
-  s.summary      = "A short description of RTBEquipmentInfo_iOS."
+  s.summary      = "A simple sdk for equipmentInfo of device"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
